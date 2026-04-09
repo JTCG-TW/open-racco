@@ -1,4 +1,7 @@
 #!/bin/sh
+# cd to the plugin directory so bun finds the correct package.json
+PLUGIN_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$PLUGIN_DIR"
 # Find bun from common install locations
 for BUN in \
   "$HOME/.bun/bin/bun" \
