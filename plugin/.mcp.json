@@ -1,9 +1,9 @@
 {
   "mcpServers": {
     "slack": {
-      "command": "bun",
-      "args": ["run", "--cwd", "${CLAUDE_PLUGIN_ROOT}", "--shell=bun", "--silent", "start"],
-      "_note": "CLAUDE_PLUGIN_ROOT is resolved by the Claude Code plugin system. For local dev, use: claude mcp add slack --scope user bun -- run --cwd /path/to/open-racco --shell=bun --silent start"
+      "command": "sh",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/start.sh"],
+      "_note": "start.sh auto-detects bun across Linux (~/.bun) and macOS (homebrew). CLAUDE_PLUGIN_ROOT is resolved by the Claude Code plugin system."
     }
   }
 }
