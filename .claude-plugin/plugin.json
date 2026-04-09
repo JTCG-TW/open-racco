@@ -1,11 +1,10 @@
 {
-  "name": "slack",
-  "description": "Slack channel for Claude Code — messaging bridge with access control. Manage allowlists and channels via /slack:access.",
+  "name": "open-racco",
   "version": "0.1.0",
-  "keywords": [
-    "slack",
-    "messaging",
-    "channel",
-    "mcp"
-  ]
+  "description": "Slack two-way messaging channel for Claude Code",
+  "author": {
+    "name": "JTCG-TW"
+  },
+  "repository": "https://github.com/JTCG-TW/open-racco",
+  "license": "Apache-2.0"
 }
