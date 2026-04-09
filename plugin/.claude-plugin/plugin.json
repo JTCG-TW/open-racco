@@ -1,0 +1,10 @@
+{
+  "name": "open-racco",
+  "version": "0.1.0",
+  "description": "Slack two-way messaging channel for Claude Code",
+  "author": {
+    "name": "JTCG-TW"
+  },
+  "repository": "https://github.com/JTCG-TW/open-racco",
+  "license": "Apache-2.0"
+}

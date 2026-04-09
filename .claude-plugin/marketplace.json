@@ -11,7 +11,7 @@
     {
       "name": "open-racco",
       "version": "0.1.0",
-      "source": ".",
+      "source": "./plugin",
       "description": "Slack two-way messaging channel for Claude Code"
     }
   ]
